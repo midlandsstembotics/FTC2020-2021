@@ -1,3 +1,6 @@
+This is a Branch off of the 2020-2021 FTC SDK for use by Midlands Stembotics
+
+
 ## NOTICE
 
 This repository contains the public FTC SDK for the Ultimate Goal (2020-2021) competition season.
