@@ -3,17 +3,17 @@ package org.firstinspires.ftc.teamcode.JavaForFTC;
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 
-@TeleOp()
-public class GamepadOpMode extends OpMode {
+@TeleOp
+public class MathOPMode extends OpMode{
     @Override
     public void init() {
-    }
 
+    }
     @Override
-
     public void loop() {
-        telemetry.addData("Left stick x", gamepad1.left_stick_x);
+        double speedForward = -gamepad1.left_stick_y / 2.0;
         telemetry.addData("Left stick y", gamepad1.left_stick_y);
-        telemetry.addData("A button", gamepad1.a);
+        telemetry.addData("speed Forward", speedForward);
     }
+
 }
